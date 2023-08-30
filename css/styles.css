@@ -148,7 +148,6 @@ body {
   display: flex;
   gap: 40px;
   padding: 24px 0;
-  display: block;
   align-items: center;
 }
 
