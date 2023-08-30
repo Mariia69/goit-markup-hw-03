@@ -108,6 +108,7 @@ body {
   text-transform: uppercase;
 }
 .menu-list {
+  padding: 24px 0;
   display: flex;
   gap: 40px;
   justify-content: space-between;
@@ -131,6 +132,7 @@ body {
   color: #404bbf;
 }
 .address {
+  display: flex;
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02;
@@ -205,15 +207,23 @@ margin: 0 auto;
 }
 /* Advantage */
 .advantages-page {
+  padding: 120px 0;
   background-color: #fff;
 }
-
+.advantages-item{
+  display: flex;
+  gap: 24px;
+}
+.advantages-list{
+  width: calc((100%-72px)/4);
+}
 .advantages-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .advantages-text {
   color: #434455;
@@ -224,6 +234,7 @@ margin: 0 auto;
 /* Our Team */
 
 .team-page {
+  padding: 120px 0;
   background-color: #f4f4fd;
 }
 
@@ -236,9 +247,19 @@ margin: 0 auto;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.team-item{
+  display: flex;
+  gap: 24px;
 }
 .team-list {
+  width: calc((100%-72px)/4);
   background-color: #ffffff;
+border-radius: 0px 0px 4px 4px;
+}
+.container-team{
+  padding: 32px 0;
 }
 .team-title {
   color: #2e2f42;
@@ -248,6 +269,7 @@ margin: 0 auto;
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .team-text {
   color: #434455;
@@ -259,7 +281,21 @@ margin: 0 auto;
 }
 /* Portfolio */
 .portfolio-page {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #fff;
+}
+.our-portfolio{
+  margin-bottom: 72px;
+}
+.portfolio-item{
+  display:flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-list{
+  width: calc((100-48px)/3);
 }
 .logo-portfolio {
   color: #2e2f42;
@@ -270,7 +306,12 @@ margin: 0 auto;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-
+.container-portfolio{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
 .portfolio-title {
   color: #2e2f42;
   font-family: "Roboto", sans-serif;
@@ -287,7 +328,12 @@ margin: 0 auto;
   letter-spacing: 0.02em;
 }
 .footer {
+  padding: 100px 0;
   background-color: #2e2f42;
+}
+.logo-footer{
+display: inline-block;
+margin-bottom: 16px;
 }
 .footer-studio {
   color: #f4f4fd;
