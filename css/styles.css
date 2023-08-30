@@ -151,7 +151,9 @@ body {
   display: block;
   align-items: center;
 }
-
+.address-link{
+  display: flex;
+}
 .address-item {
   color: #434455;
   font-family: Roboto;
