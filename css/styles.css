@@ -151,16 +151,14 @@ body {
   display: block;
   align-items: center;
 }
-.address-link{
-  display: flex;
-}
+
 .address-item {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  display: flex;
+  
 }
 .address-item:focus,
 .address-item:hover {
