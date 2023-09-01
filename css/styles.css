@@ -340,7 +340,6 @@ border-radius: 0px 0px 4px 4px;
   background-color: #2e2f42;
 }
 .footer-container{
- display: flex;
  flex-direction: column;
  margin: 0 auto;
 }
