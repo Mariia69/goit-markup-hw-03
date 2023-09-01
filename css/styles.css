@@ -344,7 +344,7 @@ border-radius: 0px 0px 4px 4px;
  margin: 0 auto;
 }
 .logo-footer{color: #4d5ae5;
-display: flex;
+display: inline-block;
   margin-bottom: 16px;
 font-family: "Raleway", sans-serif;
 font-size: 18px;
