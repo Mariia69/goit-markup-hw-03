@@ -167,7 +167,7 @@ body {
   
 }
 .container-hero{
-flex-direction: column;
+  flex-direction: column;
 gap: 40px;
 display: flex;
 margin: 0 auto;
@@ -185,10 +185,7 @@ margin: 0 auto;
   margin-right: auto;
   margin-bottom: 48px;
 }
-.haro-title:focus,
-.haro-title:hover {
-  color: #404bbf;
-}
+
 .haro-button {
   background-color: #4d5ae5;
   font-weight: 500;
@@ -316,7 +313,7 @@ border-radius: 0px 0px 4px 4px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
+
 }
 .portfolio-title {
   color: #2e2f42;
@@ -344,7 +341,7 @@ border-radius: 0px 0px 4px 4px;
  margin: 0 auto;
 }
 .logo-footer{color: #4d5ae5;
-display: inline-block;
+display: inline-flex;
   margin-bottom: 16px;
 font-family: "Raleway", sans-serif;
 font-size: 18px;
